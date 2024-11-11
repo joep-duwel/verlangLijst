@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+}
+.cards{
+    background: antiquewhite;
+}
+.name{
+    font-family: "Arial Black";
+    color: black;
+}
+.img{
+    width: 100px;
+}
+.where{
+    font-family: "Arial";
+    color: black;
+}
