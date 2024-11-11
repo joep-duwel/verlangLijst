@@ -1,23 +1,73 @@
-.container{
-    display: flex;
-    gap: 10px;
-}
-.cards{
-    background: rgb(238, 238, 238);
-   
-}
-.name{
-    font-family: "Arial Black";
-    color: black;
-}
-.img{
-    width: 100px;
-}
-.where{
+body {
+    align-items: center;
+    text-align: center;
     font-family: "Arial";
-    color: black;
-}
-.copy-name{
-    background-color: blue;
+    background-color: #06194A;
+    background-image: url(img/starry-night-sky-background-illustration-vector.jpg);
     
+}
+
+.tit {
+    display: flex;
+    align-items: center; /* Verticale uitlijning van de afbeelding en tekst */
+    gap: 10px; /* Ruimte tussen de tekst en afbeelding */
+    color: #761212;
+}
+
+.sint-img {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Zorgt ervoor dat de .cards onder elkaar komen als er geen ruimte meer is */
+    gap: 10px;
+    justify-content: center; /* Centraal uitlijnen van de .cards in de container */
+  
+}
+
+.cards {
+    
+    background: #761212;
+    border: 2px solid #FBCB47; 
+    border-radius: 5px; 
+    width: 200px;
+    overflow: hidden; 
+    text-align: center;
+    min-width: 200px;
+}
+.price{
+    background-color: #FBCB47;
+    color: #06194A;
+
+}
+.euro{
+    color: #761212;
+}
+.name {
+    font-family: "Arial Black";
+    color:#FBCB47 ;
+    }
+
+.img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.where {
+ 
+    color:#FBCB47 ;
+}
+
+.copy-name {
+    
+    color:  #761212;
+    background-color: #FBCB47;
+}
+.foot-img{
+    background-image: url(../docs/img/sin-footer.jpg);
+    width: 100px;
+    height: auto;
 }

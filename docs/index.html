@@ -9,17 +9,22 @@
 </head>
 <body>
     <header>
-    <div class="tit"><h1>Mijn verlang lijstje</h1></div>
-
+        <div class="tit">
+            <h1>Mijn verlang lijstje</h1>
+            <img class="sint-img" src="img/sint.png" alt="">
+        </div>
     </header>
 <main>
     <div class="container">
         <div class="cards">
             <a href="https://www.bol.com/nl/nl/p/lego-marvel-war-machine-mechapantser-76277/9300000157956403/?Referrer=ADVNLGOO002027-S--9300000157956403&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595hTL1d1oh62osFgv3KrP8bh2gy5jiQ8DKvHMfTwBAX1joQGMm4qVqwaArecEALw_wcB" style="text-decoration: none;">
                 <img class="img" src="img/warmachien.jpg">
-                <div class="name"><h3>LEGO Marvel War Machine mechapantser - 76277</h3></div>
+                <div class="name"><h4>LEGO Marvel War Machine mechapantser - 76277</h4></div>
+                <div class="price">
+                    <h3>de prijs is</h3>
+                    <h4 class="euro">€12,99</h4></div>
                 <div class="where">
-                    <h4>Waar kan het vinden</h4>
+                    <h5>Waar kan je het vinden</h5>
                     <p>bol.com <br></p>
                 </div>
             </a>
@@ -28,18 +33,37 @@
     
         <!-- Extra productvoorbeelden -->
         <div class="cards">
-            <a href="https://example.com" style="text-decoration: none;">
-                <img class="img" src="img/anotherproduct.jpg">
-                <div class="name"><h3>Ander Product - Model 12345</h3></div>
+            <a href="https://www.lego.com/nl-nl/product/miles-morales-keyring-854153" style="text-decoration: none;">
+                <img class="img" src="img/mils.jpg">
+                <div class="name"><h4>Miles Morales sleutelhanger - 854153</h4></div>
+                <div class="price">
+                    <h3>de prijs is</h3>
+                    <h4 class="euro">€4,99</h4></div>
                 <div class="where">
-                    <h4>Waar kan het vinden</h4>
-                    <p>example.com <br></p>
+                    <h5>Waar kan je het vinden</h5>
+                    <p>lego.com <br></p>
                 </div>
             </a>
             <button class="copy-name" onclick="copyProductName(this)" data-name="Ander Product - Model 12345">Kopieer de naam van het product</button>
         </div>
+  
+    <div class="cards">
+        <a href="hhttps://www.lego.com/nl-nl/product/miles-morales-keyring-854153" style="text-decoration: none;">
+            <img class="img" src="img/mils.jpg">
+            <div class="name"><h4>Miles Morales sleutelhanger - 854153</h4></div>
+            <div class="price"><h4>€4,99</h4></div>
+            <div class="where">
+                <h5>Waar kan je het vinden</h5>
+                <p>lego.com <br></p>
+            </div>
+        </a>
+        <button class="copy-name" onclick="copyProductName(this)" data-name="Ander Product - Model 12345">Kopieer de naam van het product</button>
     </div>
-    
+</div>
+
+    <footer>
+        <div class="foot-img"></div>
+    </footer>
     <script>
         function copyProductName(button) {
             // Haal de productnaam op uit het data-attribute
