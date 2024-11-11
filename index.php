@@ -27,6 +27,8 @@
         </div>
     </div>
 
+
+    
     <script>
         function copyProductName() {
             // Selecteer de naam van het product
