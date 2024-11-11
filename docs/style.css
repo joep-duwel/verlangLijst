@@ -8,11 +8,13 @@ body {
 }
 
 .tit {
-    display: flex;
+    text-align: center;
+
     align-items: center; /* Verticale uitlijning van de afbeelding en tekst */
     gap: 10px; /* Ruimte tussen de tekst en afbeelding */
-    color: #761212;
+    color: #FBCB47;
 }
+
 
 .sint-img {
     width: 100px;
@@ -30,9 +32,9 @@ body {
 .cards {
     
     background: #761212;
-    border: 2px solid #FBCB47; 
+    border: 5px solid #FBCB47; 
     border-radius: 5px; 
-    width: 200px;
+    width: 250px;
     overflow: hidden; 
     text-align: center;
     min-width: 200px;
@@ -40,7 +42,9 @@ body {
 .price{
     background-color: #FBCB47;
     color: #06194A;
-
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px; 
 }
 .euro{
     color: #761212;
@@ -57,14 +61,21 @@ body {
 }
 
 .where {
- 
+
     color:#FBCB47 ;
 }
 
 .copy-name {
-    
+
+    height: 30px;
+    border-radius: 5px; 
     color:  #761212;
     background-color: #FBCB47;
+    border: 0px solid #FBCB47; 
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
 }
 .foot-img{
     background-image: url(../docs/img/sin-footer.jpg);

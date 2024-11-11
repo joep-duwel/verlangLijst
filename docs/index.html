@@ -1,85 +1,411 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mijn verlang lijstje</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div class="tit">
-            <h1>Mijn verlang lijstje</h1>
-            <img class="sint-img" src="img/sint.png" alt="">
-        </div>
+      <div class="tit">
+        <h1>Mijn verlang lijstje</h1>
+        <p class="p1">als je op het product clickt ga naar he website waar je het kan kopen</p>
+        <img class="sint-img" src="img/sint.png" alt="" />
+      </div>
     </header>
-<main>
-    <div class="container">
+    <main>
+      <div class="container">
         <div class="cards">
-            <a href="https://www.bol.com/nl/nl/p/lego-marvel-war-machine-mechapantser-76277/9300000157956403/?Referrer=ADVNLGOO002027-S--9300000157956403&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595hTL1d1oh62osFgv3KrP8bh2gy5jiQ8DKvHMfTwBAX1joQGMm4qVqwaArecEALw_wcB" style="text-decoration: none;">
-                <img class="img" src="img/warmachien.jpg">
-                <div class="name"><h4>LEGO Marvel War Machine mechapantser - 76277</h4></div>
-                <div class="price">
-                    <h3>de prijs is</h3>
-                    <h4 class="euro">€12,99</h4></div>
-                <div class="where">
-                    <h5>Waar kan je het vinden</h5>
-                    <p>bol.com <br></p>
-                </div>
-            </a>
-            <button class="copy-name" onclick="copyProductName(this)" data-name="LEGO Marvel War Machine mechapantser - 76277">Kopieer de naam van het product</button>
+          <a
+            href="https://www.bol.com/nl/nl/p/lego-marvel-war-machine-mechapantser-76277/9300000157956403/?Referrer=ADVNLGOO002027-S--9300000157956403&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595hTL1d1oh62osFgv3KrP8bh2gy5jiQ8DKvHMfTwBAX1joQGMm4qVqwaArecEALw_wcB"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/warmachien.jpg" />
+            <div class="name">
+              <h4>LEGO Marvel War Machine mechapantser - 76277</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€12,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>bol.com <br /></p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="LEGO Marvel War Machine mechapantser - 76277"
+          >
+            Kopieer de naam van het product
+          </button>
         </div>
-    
+
         <!-- Extra productvoorbeelden -->
         <div class="cards">
-            <a href="https://www.lego.com/nl-nl/product/miles-morales-keyring-854153" style="text-decoration: none;">
-                <img class="img" src="img/mils.jpg">
-                <div class="name"><h4>Miles Morales sleutelhanger - 854153</h4></div>
-                <div class="price">
-                    <h3>de prijs is</h3>
-                    <h4 class="euro">€4,99</h4></div>
-                <div class="where">
-                    <h5>Waar kan je het vinden</h5>
-                    <p>lego.com <br></p>
-                </div>
-            </a>
-            <button class="copy-name" onclick="copyProductName(this)" data-name="Ander Product - Model 12345">Kopieer de naam van het product</button>
-        </div>
-  
-    <div class="cards">
-        <a href="hhttps://www.lego.com/nl-nl/product/miles-morales-keyring-854153" style="text-decoration: none;">
-            <img class="img" src="img/mils.jpg">
-            <div class="name"><h4>Miles Morales sleutelhanger - 854153</h4></div>
-            <div class="price"><h4>€4,99</h4></div>
-            <div class="where">
-                <h5>Waar kan je het vinden</h5>
-                <p>lego.com <br></p>
+          <a
+            href="https://www.lego.com/nl-nl/product/miles-morales-keyring-854153"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/mils.jpg" />
+            <div class="name">
+              <h4>Miles Morales sleutelhanger - 854153</h4>
             </div>
-        </a>
-        <button class="copy-name" onclick="copyProductName(this)" data-name="Ander Product - Model 12345">Kopieer de naam van het product</button>
-    </div>
-</div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€4,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>lego.com <br /></p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="Miles Morales sleutelhanger - 854153"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
 
-    <footer>
+        <div class="cards">
+          <a
+            href="https://www.muziker.nl/metro-boomin-not-all-heroes-wear-capes-lp?gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595gCaqd-X43fV4wYrZ_wX3K9pqhqgKEJiJkjwqd0bG1fm9Y_Bz4kF2saApFHEALw_wcB"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/metro.jpg" />
+            <div class="name">
+              <h4>Metro Boomin - Not All Heroes Wear Capes (LP)</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€37,10<br />(bij bol is die €47,99)</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>bol.com <br />muziker.nl</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="Metro Boomin - Not All Heroes Wear Capes (LP)"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+
+        <div class="cards">
+          <a
+            href="https://kaartdirect.nl/gaming/steam"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/steam.jpg" />
+            <div class="name"><h4>Steam Gift Card</h4></div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€10-€30</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>in de winkel</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="Steam Gift Card"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+
+        <div class="cards">
+          <a
+            href="https://www.bol.com/nl/nl/p/lego-marvel-guardians-of-the-galaxy-de-milano-76286/9300000175725364/?Referrer=ADVNLGOO002027-S--9300000175725364&gad_source=1&gclid=Cj0KCQiA88a5BhDPARIsAFj595h3Da4fc39R9iScdFc2gQvj0ZaFsI-pNi3mrC4PJrQ2RKzr6IxRcx4aAs1UEALw_wcB"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/milano.jpg" />
+            <div class="name">
+              <h4>LEGO Marvel Guardians of the Galaxy: de Milano - 76286</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€144,49 <br />(heeft nu korting)</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>bol.com <br />intertoys</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="LEGO Marvel Guardians of the Galaxy: de Milano - 7628"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.zalando.co.uk/pegador-conner-oversized-hoodie-sweatshirt-washed-black-pep2100l2-q11.html"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/hoedie1.png" />
+            <div class="name">
+              <h4>CONNER OVERSIZED HOODIE - Hoodie - washed black</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€69,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>zalondo</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="CONNER OVERSIZED HOODIE - Hoodie - washed black"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.zalando.nl/pegador-thayer-baggy-relaxed-fit-jeans-washed-black-pep22g026-q11.html"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/hoedie1.png" />
+            <div class="name">
+              <h4>THAYER BAGGY - Relaxed fit jeans - washed black</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€79,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>zalondo</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="THAYER BAGGY - Relaxed fit jeans - washed black"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.zalando.nl/2y-studios-gabrie-basic-straight-relaxed-fit-jeans-sand-blue-2y022g01z-b11.html"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/broek1.png" />
+            <div class="name">
+              <h4>GABRIE - Straight leg jeans - sand blue</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€41,45</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>zalondo</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="GABRIE - Straight leg jeans - sand blue"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.zalando.co.uk/pegador-aleso-hoodie-hoodie-washed-baby-blue-pep2100io-k11.html"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/hoedie2.png" />
+            <div class="name">
+              <h4>ALESO HOODIE - Sweatshirt - washed baby blue</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€63,00</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>zalondo</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="ALESO HOODIE - Sweatshirt - washed baby blue"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.nike.com/nl/t/club-knit-joggingbroek-heren-xmNrtN"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/M++NK+CLUB+KNIT+JOGGER.jpg" />
+            <div class="name"><h4>Knit joggingbroek voor heren</h4></div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€49,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>nike</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="Knit joggingbroek voor heren"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.bol.com/nl/nl/p/jlab-go-draadloos-toetsenbord-bluetooth-of-usb-dongle-verbinding-3-devices-stille-toetsen-compact-design-volumeknop-qwerty/9300000122856320/"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/keyboard.jpg" />
+            <div class="name">
+              <h4>
+                JLAB GO Draadloos Toetsenbord - Bluetooth of USB dongle
+                verbinding - 3 Devices - Stille toetsen - Compact design -
+                Volumeknop - Qwerty
+              </h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€29,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>bol.com</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name="JLAB GO Draadloos Toetsenbord - Bluetooth of USB dongle verbinding - 3 Devices - Stille toetsen - Compact design - Volumeknop - Qwerty"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://shop.adodenhaag.nl/product/ado-den-haag-warming-up-shirt-spelers-2024-2025/"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/ADO.jpg" />
+            <div class="name">
+              <h4>ADO Den Haag Warming-up shirt Spelers 2024-2025</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€49,95</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>ado store</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name=" ADO Den Haag Warming-up shirt Spelers 2024-2025"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+          <a
+            href="https://www.lego.com/nl-nl/product/aston-martin-safety-car-amr23-76925?ef_id=Cj0KCQiA88a5BhDPARIsAFj595hegJjIxGtP5zcQKBRx4Z_OZ5jUpsDL4_rND-QWmHN_lNxy6fjaOEAaApTPEALw_wcB%3AG%3As&s_kwcid=AL%21933%213%21%21%21%21x%21%21%2119820782539%21&cmp=KAC-INI-GOOGEU-GO-NL_GL-NL-RE-SP-BUY-CREATE-MB_ALWAYS_ON-SHOP-BP-PMAX-ALL-CIDNA00000-PMAX-LOW_PRIORITY&gad_source=1"
+            style="text-decoration: none"
+          >
+            <img class="img" src="img/76925 (1).png" />
+            <div class="name">
+              <h4>Aston Martin safety car en AMR23</h4>
+            </div>
+            <div class="price">
+              <h3>de prijs is</h3>
+              <h4 class="euro">€49,99</h4>
+            </div>
+            <div class="where">
+              <h5>Waar kan je het vinden</h5>
+              <p>lego store <br>bol.com <br>intertoys</p>
+            </div>
+          </a>
+          <button
+            class="copy-name"
+            onclick="copyProductName(this)"
+            data-name=" Aston Martin safety car en AMR23"
+          >
+            Kopieer de naam van het product
+          </button>
+        </div>
+        <div class="cards">
+            <a
+              href="https://www.bol.com/nl/nl/p/lego-minifigures-marvel-studios-71031/9300000035079035/?s2a=&bltgh=h8m5YHE8zdsLa4AtsaFIWQ.2_57_58.59.FeatureOption#productTitle"
+              style="text-decoration: none"
+            >
+              <img class="img" src="img/mar.jpg" />
+              <div class="name">
+                <h4>LEGO Minifigures Marvel Studios 71031 serie 1</h4>
+              </div>
+              <div class="price">
+                <h3>de prijs is</h3>
+                <h4 class="euro">€16,95</h4>
+              </div>
+              <div class="where">
+                <h5>Waar kan je het vinden</h5>
+                <p>bol.com</p>
+              </div>
+            </a>
+            <button
+              class="copy-name"
+              onclick="copyProductName(this)"
+              data-name=" LEGO Minifigures Marvel Studios 71031 serie 1"
+            >
+              Kopieer de naam van het product
+            </button>
+          </div>
+      </div>
+
+      <footer>
         <div class="foot-img"></div>
-    </footer>
-    <script>
+      </footer>
+      <script>
         function copyProductName(button) {
-            // Haal de productnaam op uit het data-attribute
-            const productName = button.getAttribute("data-name");
-    
-            // Kopieer de tekst naar het klembord
-            navigator.clipboard.writeText(productName).then(() => {
-                alert("Productnaam gekopieerd naar klembord!");
-            }).catch(err => {
-                console.error("Fout bij kopiëren: ", err);
+          // Haal de productnaam op uit het data-attribute
+          const productName = button.getAttribute("data-name");
+
+          // Kopieer de tekst naar het klembord
+          navigator.clipboard
+            .writeText(productName)
+            .then(() => {
+              alert("Productnaam gekopieerd naar klembord!");
+            })
+            .catch((err) => {
+              console.error("Fout bij kopiëren: ", err);
             });
         }
-    </script>
-    
-
-
-</main>
-</body>
+      </script>
+    </main>
+  </body>
 </html>
