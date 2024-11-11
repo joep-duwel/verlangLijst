@@ -1,8 +1,10 @@
 .container{
     display: flex;
+    gap: 10px;
 }
 .cards{
-    background: antiquewhite;
+    background: rgb(238, 238, 238);
+   
 }
 .name{
     font-family: "Arial Black";
@@ -14,4 +16,8 @@
 .where{
     font-family: "Arial";
     color: black;
+}
+.copy-name{
+    background-color: blue;
+    
 }
