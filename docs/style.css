@@ -1,84 +1,58 @@
 body {
-    align-items: center;
-    text-align: center;
-    font-family: "Arial";
-    background-color: #06194A;
-    background-image: url(img/starry-night-sky-background-illustration-vector.jpg);
-    
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+   
 }
-
-.tit {
-    text-align: center;
-
-    align-items: center; /* Verticale uitlijning van de afbeelding en tekst */
-    gap: 10px; /* Ruimte tussen de tekst en afbeelding */
-    color: #FBCB47;
+.tit{
+ text-align: center;
+ 
 }
-
-
-.sint-img {
-    width: 100px;
-    height: auto;
-}
-
 .container {
-    display: flex;
-    flex-wrap: wrap; /* Zorgt ervoor dat de .cards onder elkaar komen als er geen ruimte meer is */
-    gap: 10px;
-    justify-content: center; /* Centraal uitlijnen van de .cards in de container */
-  
+    width: min(1000px, 100%);
+    margin: 0 auto;
 }
 
 .cards {
-    
-    background: #761212;
-    border: 5px solid #FBCB47; 
-    border-radius: 5px; 
-    width: 250px;
-    overflow: hidden; 
-    text-align: center;
-    min-width: 200px;
+    margin-bottom: 2em;
 }
-.price{
-    background-color: #FBCB47;
-    color: #06194A;
-    margin-left: 30px;
-    margin-right: 30px;
-    border-radius: 10px; 
-}
-.euro{
-    color: #761212;
-}
-.name {
-    font-family: "Arial Black";
-    color:#FBCB47 ;
-    }
 
-.img {
-    width: 100%;
-    height: auto;
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-bottom: 3px solid #ccc; 
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.text-content h4 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+a {
+  text-decoration: none; /* Verwijdert de onderstreping */
+  color: inherit; /* Neemt de kleur over van de ouder (bijv. zwart als je dat wilt) */
+}
+
+.copy-button {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.img-pro {
     display: block;
-}
-
-.where {
-
-    color:#FBCB47 ;
-}
-
-.copy-name {
-
-    height: 30px;
-    border-radius: 5px; 
-    color:  #761212;
-    background-color: #FBCB47;
-    border: 0px solid #FBCB47; 
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    text-align: center;
-}
-.foot-img{
-    background-image: url(../docs/img/sin-footer.jpg);
-    width: 100px;
+    width: 300px;
     height: auto;
+    border-radius: 10px;
 }
